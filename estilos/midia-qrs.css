@@ -8,6 +8,7 @@
 
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    /* Conf. para Tablet */
 
     body {
         background-image: linear-gradient(to top, var(--cor01), var(--cor02));
@@ -16,6 +17,7 @@
 
     section#login {
         width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem {
@@ -34,6 +36,7 @@
 }
 
 @media screen and (min-width: 992px) {
+    /* Conf. para Desctop */
 
     body {
         background-image: linear-gradient(to top, var(--cor01), var(--cor02));
@@ -42,6 +45,7 @@
 
     section#login {
         width: 950px;
+        height: 300px;
     }
 
     section#login > div#imagem {
@@ -63,6 +67,7 @@
 
     div#formulario > p {
         font-size: 0.8em;
+        margin: 10px 0px;
         
     }
 }
